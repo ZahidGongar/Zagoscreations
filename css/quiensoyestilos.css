@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "XTypewriter";
+  src: url("/fonts/XTypewriter-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "OldTypewriter";
+  src: url("/fonts/OldNewspaperTypes.ttf") format("Truetype");
+}
+@font-face {
+  font-family: "Typewriter";
+  src: url("/fonts/typewcond_bold.otf") format("opentype");
+}
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+nav h1 {
+  background-color: #000000;
+  font-family: "XTypewriter";
+  font-size: 70px;
+  color: #FFFFFF;
+}
+
+h1 {
+  background-color: #1C3741;
+  font-family: "XTypewriter";
+  font-size: 70px;
+  color: #FFFFFF;
+}
+
+h2 {
+  background-color: #297D7A;
+  text-align: center;
+  font-family: "Typewriter";
+  font-size: 30px;
+  color: #FFFFFF;
+}
+
+h3 {
+  background-color: #366171;
+  text-align: left;
+  font-family: "XTypewriter";
+  font-size: 70px;
+  color: #FFFFFF;
+}
+
+h4 {
+  background-color: #0B4644;
+  text-align: left;
+  font-family: "XTypewriter";
+  font-size: 70px;
+  color: #FFFFFF;
+}
+
+h5 {
+  background-color: #7BC7C5;
+  text-align: center;
+  font-family: "XTypewriter";
+  font-size: 70px;
+  color: #000000;
+}
+
+h6 {
+  background-color: #297D7A;
+  text-align: left;
+  font-family: "XTypewriter";
+  font-size: 70px;
+  color: #000000;
+}
+
+div {
+  background-color: #000000;
+}
+
+p {
+  font-family: "Typewriter";
+  font-size: 30px;
+  color: #FFFFFF;
+}
+
+footer {
+  background-color: #000000;
+}
+footer h1 {
+  background-color: #000000;
+  font-family: "XTypewriter";
+  font-size: 70px;
+  color: #FFFFFF;
+}
+footer p {
+  font-family: "Typewriter";
+  font-size: 30px;
+  color: #FFFFFF;
+}

@@ -1,0 +1,103 @@
+$color-menta: #7BC7C5;
+$color-verdeborracho: #297D7A;
+$color-verdemasfuerte: #0B4644;
+$color-negro: #000000;
+$color-azul: #366171;
+$color-azulmasoscuro: #1C3741;
+$color-blanco: #FFFFFF;
+$titulos:"..fo";
+$subtitulos:'Anton', sans-serif;
+$texto:'Oswald', sans-serif;
+
+@font-face {
+    font-family: "XTypewriter";
+    src: url("/fonts/XTypewriter-Bold.otf")format("opentype");
+}
+
+@font-face {
+    font-family: "OldTypewriter";
+    src: url("/fonts/OldNewspaperTypes.ttf")format("Truetype");
+}
+@font-face {
+    font-family: "Typewriter";
+    src: url("/fonts/typewcond_bold.otf")format("opentype");
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+nav{
+    h1{
+        background-color: $color-negro;
+        font-family: "XTypewriter";
+        font-size: 70px;
+        color: $color-blanco;
+    }
+}
+
+h1{
+    background-color: $color-azulmasoscuro;
+    font-family: "XTypewriter";
+    font-size: 70px;
+    color: $color-blanco;
+}
+
+h2{
+    background-color: $color-verdeborracho;
+    text-align: center;
+    font-family: "Typewriter";
+    font-size: 30px;
+    color: $color-blanco;
+}
+
+h3{
+    background-color: $color-azul;
+    text-align: left;
+    font-family: "XTypewriter";
+    font-size: 70px;
+    color:$color-blanco;
+}
+h4{
+    background-color: $color-verdemasfuerte;
+    text-align: left;
+    font-family: "XTypewriter";
+    font-size: 70px;
+    color:$color-blanco;
+}
+h5{
+    background-color: $color-menta;
+    text-align: center;
+    font-family: "XTypewriter";
+    font-size: 70px;
+    color:$color-negro;
+}
+h6{
+    background-color: $color-verdeborracho;
+    text-align: left;
+    font-family: "XTypewriter";
+    font-size: 70px;
+    color:$color-negro;
+}
+div{
+    background-color: $color-negro;
+}
+p{
+    font-family: "Typewriter";
+        font-size: 30px;
+        color: $color-blanco; 
+}
+footer{
+    background-color: $color-negro;
+    h1{
+        background-color: $color-negro;
+        font-family: "XTypewriter";
+        font-size: 70px;
+        color: $color-blanco;
+    }
+    p{
+        font-family: "Typewriter";
+        font-size: 30px;
+        color: $color-blanco; 
+    }
+}
